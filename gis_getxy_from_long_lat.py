@@ -1,14 +1,3 @@
-
-import urllib.request
-from PIL import Image
-import os
-import math
-import urllib as urllibObj
-import urllib # this is for image retrieval
-from urllib.request import Request, urlopen # this is for soup
-import sys
-import time 
-
 def getXY(lat,lng,zoom):
 
         tile_size = 256
@@ -25,8 +14,6 @@ def getXY(lat,lng,zoom):
         #print("x = %d y= %d" %(int(point_x), int(point_y)))
         return int(point_x), int(point_y)
 
-zoom = 20
-lat,lng = -37.9821368,145.186968
-lat2,lng2 = -37.9924558,145.201797
-print(getXY(lat,lng,zoom))
-print(getXY(lat2,lng2,zoom))
+zoom = 20  # zoom level for the maps
+lat,lng = -37.9821368,145.186968  # latitude and longitude
+print(getXY(lat2,lng2,zoom)) 
