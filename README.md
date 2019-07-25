@@ -24,3 +24,7 @@ The script can be used to convert the format into x-y cartesian coordinate syste
 `lat2,lng2 = -37.9924558,145.201797`
 
 `print(getXY(lat,lng,zoom))`
+
+
+## 2. xy_latlng_conversion.py
+This contains the 2 functions that can used to convert between lat, long combination to x,y combination
